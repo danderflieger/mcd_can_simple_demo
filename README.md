@@ -12,5 +12,5 @@ I have added a LOT of comment lines to describe what is happening. If you have q
 The BMP280 is connected to the I2C port. Note that some of the BMP280 modules use a different I2C address and you might need to adjust code to connect to the correct address.
 
 # Required Libraries
-- *mcp_can* - In the Arduino IDE's library manager, search for **mcp_can** by coryjfowler. This is the library used to communicate with the MCP2515 CAN module
-- *canfix* - This is a library available from MakerPlane: https://github.com/makerplane/CAN-FIX-ArduinoLib
+- **mcp_can** - In the Arduino IDE's library manager, search for **mcp_can** by coryjfowler. This is the library used to communicate with the MCP2515 CAN module
+- **canfix** - This is a library available from MakerPlane: https://github.com/makerplane/CAN-FIX-ArduinoLib
